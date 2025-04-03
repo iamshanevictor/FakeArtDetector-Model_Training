@@ -1,13 +1,15 @@
-This README:
-1. Provides clear installation/usage instructions
-2. Shows expected project structure
-3. Includes example results
-4. Is properly formatted with code blocks and sections
-5. Contains license information
-6. Mentions hardware considerations
+## Features
+- **Transfer Learning**: Uses pre-trained ResNet50 with custom classification head
+- **Data Augmentation**: Improves generalization with rotation, flipping, and shifts
+- **Metrics**: Accuracy, Precision/Recall, F1-Score, ROC-AUC
+- **Visualization**: Training curves and confusion matrix
 
-You should:
-1. Create a `requirements.txt` file with the listed dependencies
-2. Add a `LICENSE` file (MIT recommended)
-3. Ensure your folder structure matches the description
-4. Remove any sensitive/personal data before pushing to GitHub
+## Requirements
+- Python 3.8+
+- TensorFlow 2.10+
+- numpy
+- matplotlib
+- split-folders
+- scikit-learn
+- seaborn
+- jupyter
