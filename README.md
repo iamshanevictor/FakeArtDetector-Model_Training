@@ -13,3 +13,6 @@
 - scikit-learn
 - seaborn
 - jupyter
+
+## Model Architecture
+- ResNet50 Base → GlobalAveragePooling2D → Dense(256, ReLU) → Dropout(0.5) → Dense(1, Sigmoid)
